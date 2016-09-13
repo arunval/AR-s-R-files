@@ -13,6 +13,6 @@ MakeCacheMatrix <- function(x = matrix()){
             setinv <- function(solve) I <- solve
 ## getting the value of I           
             getinv <- function()I
-## creating names for the functions/objects             
+## creating a list of names for the functions/objects             
             list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
